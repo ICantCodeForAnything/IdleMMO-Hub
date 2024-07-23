@@ -9,7 +9,7 @@ export const RootShell = () => {
           width: 150,
           breakpoint: 'sm',
         }}
-        padding="md"
+        padding={0}
     >
         <AppShell.Navbar p="md">
             <Link to='/'>Home</Link>
