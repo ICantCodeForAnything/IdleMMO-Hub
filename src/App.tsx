@@ -1,12 +1,23 @@
 import '@mantine/core/styles.css';
-import { MantineProvider } from '@mantine/core';
+import { AppShell, Group, MantineProvider, Text } from '@mantine/core';
 import { theme } from './theme';
 import { Router } from './Router';
 
 const App = () => {
   return (
     <MantineProvider theme={theme} defaultColorScheme="dark">
-      <Router />
+      <AppShell
+        navbar={{
+          width: 150,
+          breakpoint: 'sm',
+        }}
+        padding="md"
+      >
+        <AppShell.Navbar p="md">Navbar</AppShell.Navbar>
+        <AppShell.Main>
+          <Router />
+        </AppShell.Main>
+      </AppShell>
     </MantineProvider>
   );
 }

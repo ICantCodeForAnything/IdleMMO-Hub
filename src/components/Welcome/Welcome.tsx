@@ -5,7 +5,7 @@ export const Welcome = () => {
   return (
     <>
       <Title className={classes.title} ta="center" mt={100}>
-        IdleMMO Hub test
+        IdleMMO Hub
       </Title>
       <Text c="dimmed" ta="center" size="lg" maw={580} mx="auto" mt="xl">
         The place with all the helpful information and tools
