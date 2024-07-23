@@ -9,6 +9,6 @@ const App = () => {
       <Router />
     </MantineProvider>
   );
-}
+};
 
 export default App;

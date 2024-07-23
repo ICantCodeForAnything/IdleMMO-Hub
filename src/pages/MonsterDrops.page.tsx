@@ -1,8 +1,3 @@
-
 export const MonsterDropsPage = () => {
-  return (
-    <>
-      Hello there
-    </>
-  );
-}
+  return <>Hello there</>;
+};

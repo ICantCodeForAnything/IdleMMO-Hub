@@ -3,7 +3,7 @@ import classes from './Welcome.module.css';
 
 export const Welcome = () => {
   return (
-    <Stack align='center'>
+    <Stack align="center">
       <Title className={classes.title} mt={100}>
         IdleMMO Hub
       </Title>
@@ -12,4 +12,4 @@ export const Welcome = () => {
       </Text>
     </Stack>
   );
-}
+};
